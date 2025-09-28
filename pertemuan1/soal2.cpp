@@ -26,7 +26,7 @@ string ubahKeTulisan(int n) {
 }
 int main() {
     int x;
-    cout << "Masukkan angka (0-100): ";
+    cout << "Masukkan angka: ";
     cin >> x;
 
     if (x < 0 || x > 100) {
