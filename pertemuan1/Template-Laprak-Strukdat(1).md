@@ -166,7 +166,6 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-Penjelasan Unguided 1 
 Program mendeklarasikan dua variabel yang bertipe float, yaitu bil1 dan bil2. Kemudian meminta untuk memasukkan bilangan pertama dan kedua. Program melakukan empat operasi aritmatika yaitu penjumlahan, pengurangan, perkalian dan pembagian. Dan hasil dari masing masing operasi di tampilkan di layar.
 
 ### 2. Soal Unguided 2
@@ -223,7 +222,6 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-Penjelasan Unguided 2
 Program ini meminta untuk memasukkan angka, dan program memeriksa apakah angka berada dalam jangkaun 0-100, jika angka di luar jangkauan maka menampilkan kata angka di luar jangkauan.
 
 ### 3. Soal Unguided 3
@@ -272,7 +270,6 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-Penjelasan Unguided 3
 Program ini meminta untuk memasukkan sebuah angka n. Angka tersebut yang akan menentukan jumlah baris dan panjang pola yang akan ditampilkan. Program ini mencetak pola perulangan dan hasil ditampilkan di layar. 
 
 ## Kesimpulan
@@ -281,8 +278,8 @@ Struktur adalah konsep yang memungkinkan pengelompokan beberapa variabel dengan 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
 [2] Sianipar, Rismon Hasiholan. (2014). "Pemrograman C++ untuk Pemula". Bandung: Penerbit Informatika. <br>
-[3] Hanief, S., & Jepriana, I. (2020). "Konsep Algoritme dan Aplikasinya dalam Bahasa Pemrograman C++". Yogyakarta: Penerbit Andi.
-[4] Hasibuan, A., Kembuan, D. R. E., & Tinambunan, M. H. (2023). Buku ajar algoritma dan pemrograman menggunakan bahasa pemrograman C++. Tahta Media.
-[5] Petani Kode. (2019, 20 Desember). Belajar C++ #04: Mengenal fungsi input dan output pada C++. Petani Kode. https://www.petanikode.com/cpp-input-output/ 
-[6] Anam, S., Yanti, I., Fitriah, Z., & Habibah, U. (2021). Cara mudah belajar bahasa pemrograman C++. Universitas Brawijaya Press.
-[7] Pasaribu, Sutrisno Arianto. (2023). Algoritma dan Pemrograman dalam Bahasa Pascal dan C++. Deepublish
+[3] Hanief, S., & Jepriana, I. (2020). "Konsep Algoritme dan Aplikasinya dalam Bahasa Pemrograman C++". Yogyakarta: Penerbit Andi. <br>
+[4] Hasibuan, A., Kembuan, D. R. E., & Tinambunan, M. H. (2023). Buku ajar algoritma dan pemrograman menggunakan bahasa pemrograman C++. Tahta Media. <br>
+[5] Petani Kode. (2019, 20 Desember). Belajar C++ #04: Mengenal fungsi input dan output pada C++. Petani Kode. https://www.petanikode.com/cpp-input-output/ <br>
+[6] Anam, S., Yanti, I., Fitriah, Z., & Habibah, U. (2021). Cara mudah belajar bahasa pemrograman C++. Universitas Brawijaya Press. <br>
+[7] Pasaribu, Sutrisno Arianto. (2023). Algoritma dan Pemrograman dalam Bahasa Pascal dan C++. Deepublish. <br>
