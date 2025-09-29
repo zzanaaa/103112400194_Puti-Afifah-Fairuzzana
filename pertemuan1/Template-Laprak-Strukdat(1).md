@@ -7,7 +7,7 @@ Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel 
 ### A. Dasar pemrogaman <br/>
 ...
 #### 1. Struktur C++ 
-Program yang diawali dengan #include <iostrem> dan diakhiri dengan return 0; [2]
+Program yang diawali dengan #include <iostrem> dan diakhiri dengan return 0. [2]
 #### 2. Tipe Data
 Data yang disimpan di dalam satu variabel. [3]
 #### 3. Variabel
@@ -29,11 +29,12 @@ Membaca sebuah karakter dengan sifat karakter yang dimasukkan tidak perlu diakhi
 #### 1. Aritmetika 
 Operator aritmetika terdiri dari penjumlahan, pengurangan, perkalian, dan pembagian. [6]
 #### 2. Operator Logika 
-Operator yang hanya memberikan hasil benar atau salah. Operator && mengahsilkan nilai benar, jika nilai kebenaran dari seluruh ekpresi relasi dikombinasikan adalah benar, operator || jika nilai kebenaran dari satu eksprei, operator ! menghasilkan nilai kebalikkan, jika nilai awal bernilai benar maka hasilnya salah. [6]
+Operator yang hanya memberikan hasil benar atau salah. Operator &&, operator ||, operator !. [6]
 #### 3. Operator Unary 
-Operator yang digunakan untuk melakukan operasi terhadap satu operand. Operator + berfungsi untuk membuat variabel bernilai positif, operator - berfungsi untuk variabel yang bernilai negatif, ++ untuk menaikkan satu nilai variabel dan -- untuk menurunkan satu nilai variable. [6]
+Operator yang digunakan untuk melakukan operasi terhadap satu operand. Operator +, operator -, operator ++, 
+dan --. [6]
 #### 4. Perulangan 
-Perulangan memiliki tiga jenis utama, yaitu FOR TO DO yang berfungsi untuk urutan perintah yang telah ditentukan secara jelas, WHILE DO berfungsi untuk pernyataan yang akan dijalankan berulang kali selama kondisi ditetapkan bernilai benar dan DO WHILE berfungsi memeriksa kondisi yang sudah dijalankan sehingga minimal dieksekusi sekali.[6]
+Perulangan memiliki tiga jenis utama, yaitu FOR TO DO, WHILE DO dan DO WHILE.[6]
 #### 5. Percabangan 
 Metode yang digunakan untuk menentukan langkah yang harus dijalankan, sesuai kondisi yang berlaku.[7]
 
@@ -166,7 +167,7 @@ contoh :
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 Penjelasan Unguided 1 
-Di fungsi main(), program mendeklarasikan dua variabel yang bertipe float, yaitu bil1 dan bil2. Kemudian meminta untuk memasukkan bilangan pertama dan kedua melalui cin. Program melakukan empat operasi aritmatika yaitu penjumlahan, pengurangan, perkalian dan pembagian. Hasil dari masing masing operasi di tampilkan menggunakan cout. Dan diakhiri dengan return 0;.
+Program mendeklarasikan dua variabel yang bertipe float, yaitu bil1 dan bil2. Kemudian meminta untuk memasukkan bilangan pertama dan kedua. Program melakukan empat operasi aritmatika yaitu penjumlahan, pengurangan, perkalian dan pembagian. Dan hasil dari masing masing operasi di tampilkan di layar.
 
 ### 2. Soal Unguided 2
 Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
@@ -223,7 +224,7 @@ contoh :
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 Penjelasan Unguided 2
-Tiga array dibuat untuk mempermudah konversi angka ke kata yang terdiri dari satuan, belasan dan puluhan. Fungsi ubahKeTulisan untuk mengubah angka menjadi kata. Di fungsi main() program meminta untuk memasukkan angka melalui cin, dan program memeriksa apakah angka berada dalam jangkaun 0-100, jika angka di luar jangkauan maka menampilkan kata angka di luar jangkauan.
+Program ini meminta untuk memasukkan angka, dan program memeriksa apakah angka berada dalam jangkaun 0-100, jika angka di luar jangkauan maka menampilkan kata angka di luar jangkauan.
 
 ### 3. Soal Unguided 3
 Buatlah program yang dapat memberikan input dan output sbb.
@@ -263,7 +264,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/pertemuan1/output-unguided3-modul3.png)
+![Screenshot Output Unguided 3_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/pertemuan1/output-unguided3-modul1.png)
 
 contoh :
 ![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
@@ -272,15 +273,15 @@ contoh :
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 Penjelasan Unguided 3
-Program meminta untuk memasukkan sebuah angka n melalui cin. Angka tersebut yang akan menentukan jumlah baris dan panjang pola yang akan ditampilkan. Program ini mencetak pola perulangan luar (for i = 0; i <= n; i++) yang mengontrol baris pola, perulangan pertama (int s = 0; s < i; s++) untuk mencetak spasi, perulangan kedua (for (int k = n - i; k >= 1; k--)) untuk mencetak angka menurun, perulangan ketiga (int k = 1; k <= n - i; k++) unruk angka naik dan program mencetak tanda bintang * untuk titik tengah. cout << endl; untuk membuat baris baru. 
+Program ini meminta untuk memasukkan sebuah angka n. Angka tersebut yang akan menentukan jumlah baris dan panjang pola yang akan ditampilkan. Program ini mencetak pola perulangan dan hasil ditampilkan di layar. 
 
 ## Kesimpulan
 Struktur adalah konsep yang memungkinkan pengelompokan beberapa variabel dengan berbagai jenis tipe data yang berbeda menjadi satu kesatuan. Dengan adanya struktur, data yang saling terkait dapat dikelola dengan cara yang lebih teratur dan efisien.
 
 ## Referensi
-[1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.
-<br>[2] Sianipar, Rismon Hasiholan. (2014). "Pemrograman C++ untuk Pemula". Bandung: Penerbit Informatika. 
-<br>[3] Hanief, S., & Jepriana, I. (2020). "Konsep Algoritme dan Aplikasinya dalam Bahasa Pemrograman C++". Yogyakarta: Penerbit Andi.
+[1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
+[2] Sianipar, Rismon Hasiholan. (2014). "Pemrograman C++ untuk Pemula". Bandung: Penerbit Informatika. <br>
+[3] Hanief, S., & Jepriana, I. (2020). "Konsep Algoritme dan Aplikasinya dalam Bahasa Pemrograman C++". Yogyakarta: Penerbit Andi.
 [4] Hasibuan, A., Kembuan, D. R. E., & Tinambunan, M. H. (2023). Buku ajar algoritma dan pemrograman menggunakan bahasa pemrograman C++. Tahta Media.
 [5] Petani Kode. (2019, 20 Desember). Belajar C++ #04: Mengenal fungsi input dan output pada C++. Petani Kode. https://www.petanikode.com/cpp-input-output/ 
 [6] Anam, S., Yanti, I., Fitriah, Z., & Habibah, U. (2021). Cara mudah belajar bahasa pemrograman C++. Universitas Brawijaya Press.
