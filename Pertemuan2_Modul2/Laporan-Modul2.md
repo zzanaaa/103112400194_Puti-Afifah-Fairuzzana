@@ -5,11 +5,13 @@
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
 ### A. Array <br/>
-... 
-#### 1. Array 
 Struktur yang terdiri dari sebuah elemen yang memiliki tipe data yang sama.[2]
-#### 2. Pointer 
+
+### B. Pointer 
 Variabel penunjuk yang berisi alamat pada suatu lokasi tertentu.[3]
+
+### C. Prosedur 
+Prosedur adalah subprogram yang digunakan untuk menjalankan suatu proses dan membutuhkan variabel khusus untuk menampung hasil perhitungannya.[4]
 
 ## Guided 
 
@@ -278,9 +280,10 @@ contoh :
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 ## Kesimpulan
-Struktur adalah konsep yang memungkinkan pengelompokan beberapa variabel dengan berbagai jenis tipe data yang berbeda menjadi satu kesatuan. Dengan adanya struktur, data yang saling terkait dapat dikelola dengan cara yang lebih teratur dan efisien.
+Praktikum Modul 2 ini mengenalkan array dan pointer merupakan konsep penting dalam bahasa C++. Array berfungsi untuk menyimpan data yang bertipe sama secara terstruktur, sementara pointer digunakan untuk mengakses dan memanipulasi data melalui alamat memorinya. Dengan mengombinasikan kedua konsep ini bersama fungsi maupun prosedur.
 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
 [2] Pratama, M. A. (2020, March 29). STRUKTUR DATA ARRAY DUA DIMENSI  PADA PEMROGRAMAN C++. https://doi.org/10.31219/osf.io/vyech.<br>
 [3] Muhammad, T. D. P., Munawir, M., & Yuniarti, A. R. (2023). Belajar Pemograman Lanjut Dengan C++. Penerbit Widina.<br>
+[4] Indahyanti, U., & Rahmawati, Y. (2020). Buku Ajar Algoritma Dan Pemrograman Dalam Bahasa C++. Umsida Press, 1-146.<br>
