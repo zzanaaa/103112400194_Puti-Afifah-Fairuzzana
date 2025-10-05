@@ -281,5 +281,5 @@ Struktur adalah konsep yang memungkinkan pengelompokan beberapa variabel dengan 
 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
-[2] Pratama, M. A. (2020, March 29). STRUKTUR DATA ARRAY DUA DIMENSI  PADA PEMROGRAMAN C++. https://doi.org/10.31219/osf.io/vyech. <br\>
-[3] Muhammad, T. D. P., Munawir, M., & Yuniarti, A. R. (2023). Belajar Pemograman Lanjut Dengan C++. Penerbit Widina. <br\>
+[2] Pratama, M. A. (2020, March 29). STRUKTUR DATA ARRAY DUA DIMENSI  PADA PEMROGRAMAN C++. https://doi.org/10.31219/osf.io/vyech.<br\>
+[3] Muhammad, T. D. P., Munawir, M., & Yuniarti, A. R. (2023). Belajar Pemograman Lanjut Dengan C++. Penerbit Widina.<br\>
