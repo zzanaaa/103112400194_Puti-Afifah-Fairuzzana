@@ -13,82 +13,83 @@ int B[3][3] = {
     {5, 18, 33}
 };
 
-void tampilkanMatriks(int matriks[3][3]) {
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            cout << matriks[x][y] << "\t ";
+void tampilkanMatriks(int M[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << M[i][j] << " ";
         }
         cout << endl;
     }
+    cout << endl;
 }
 
 void jumlahMatriks(int A[3][3], int B[3][3]) {
     int hasil[3][3];
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            hasil[x][y] = A[x][y] + B[x][y];
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            hasil[i][j] = A[i][j] + B[i][j];
         }
     } 
-    cout << "Hasil penjumlahan matriks A dan B adalah:" << endl;
+    cout << "Hasil penjumlahan:\n";
     tampilkanMatriks(hasil);
-    cout << endl;
 }
 
 void kurangMatriks(int A[3][3], int B[3][3]) {
     int hasil[3][3];
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            hasil[x][y] = A[x][y] - B[x][y];
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            hasil[i][j] = A[i][j] - B[i][j];
         }
     }
-    cout << "Hasil pengurangan matriks A dan B adalah:" << endl;
+    cout << "Hasil pengurangan:\n";
     tampilkanMatriks(hasil);
-    cout << endl;
 }
 
 void kaliMatriks(int A[3][3], int B[3][3]) {
     int hasil[3][3];
-    for (int x = 0; x < 3; x++) {
-        for (int y = 0; y < 3; y++) {
-            hasil[x][y] = 0;
-            for (int z = 0; z < 3; z++) {
-                hasil[x][y] += A[x][y] * B[x][y];
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            hasil[i][j] = 0;
+            for (int k = 0; k < 3; k++) {
+                hasil[i][j] += A[i][k] * B[k][j];
             }
         }
     }
-    cout << "Hasil perkalian matriks A dan B adalah:" << endl;
+    cout << "Hasil perkalian:\n";
     tampilkanMatriks(hasil);
-    cout << endl;
 }
 
 int main() {
     int pilihan; 
-    do {
+    do {   
 
-    cout << "Menu Operasi Matriks" << endl;
-    cout << "1. Penjumlahan Matriks\n";
-    cout << "2. Pengurangan Matriks\n";
-    cout << "3. Perkalian Matriks\n";
-    cout << "4. Keluar\n";
-    cout << "Pilih menu: ";
-    cin >> pilihan;
+        cout << "Menu Operasi Matriks" << endl;
+        cout << "1. Penjumlahan Matriks\n";
+        cout << "2. Pengurangan Matriks\n";
+        cout << "3. Perkalian Matriks\n";
+        cout << "4. Keluar\n";
+        cout << "Pilih menu: ";
+        cin >> pilihan;
 
-    switch (pilihan) {
-        case 1:
-            jumlahMatriks(A, B);
-            break;
-        case 2: 
-            kurangMatriks(A, B);
-            break; 
-        case 3: 
-            kaliMatriks(A, B);
-            break;
-        case 4: 
-            cout << "Program selesai." << endl;
-            break;
-        default:
-            cout << "Pilihan tidak valid.\n";
-    }
-} while (pilihan != 4);
-return 0;
+        switch (pilihan) {
+            case 1:
+                jumlahMatriks(A, B);
+                break;
+            case 2: 
+                kurangMatriks(A, B);
+                break; 
+            case 3: 
+                kaliMatriks(A, B);
+                break;
+            case 4: 
+                cout << "Program selesai." << endl;
+                break;
+            default:
+                cout << "Pilihan tidak valid.\n";
+        }
+
+    } while (pilihan != 4);
+    
+    return 0;
 }
+
