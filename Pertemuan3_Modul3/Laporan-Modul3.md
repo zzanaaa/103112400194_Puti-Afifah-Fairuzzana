@@ -5,7 +5,7 @@
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
 ### A. Abstract Data Type <br/>
-Tipe data abstrak adalah jenis data tertentu yang didefinisikan oleh pemograman untuk kemudahan pemograman dan untuk menerima jenis data yang tidak spesifik yang dapat diterima oleh bahasa pemograman yang digunakan. Selain itu, ADT menyempurnakan tipe data dengan mengaitkannya dengan fungsi fungsi data yang relevan.
+Tipe data abstrak adalah jenis data tertentu yang didefinisikan oleh pemograman untuk kemudahan pemograman dan untuk menerima jenis data yang tidak spesifik yang dapat diterima oleh bahasa pemograman yang digunakan. Selain itu, ADT menyempurnakan tipe data dengan mengaitkannya dengan fungsi fungsi data yang relevan.[2]
 
 ## Guided 
 
