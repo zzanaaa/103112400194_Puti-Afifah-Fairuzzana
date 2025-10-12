@@ -133,8 +133,6 @@ int main(){
     return 0;
 
 }
-Program ini meminta user unttuk mengelola data mahasiswa dan menghitung nilai akhir nya.
-
 ```
 ### Output Unguided 1 :
 
@@ -197,7 +195,6 @@ int main() {
     tampilPelajaran(p);
     return 0;
 }
-pelajaran.h berisi pendefinisian struktur data bernama pelajaran dengan dua atribut, yaitu namaMapel untuk menyimpan nama mata pelajaran dan kodeMapel untuk menyimpan kode mata pelajaran. pelajaran.cpp berisi implementasi dari fungsi-fungsi yang dideklarasikan dalam file header. main.cpp berisi program utama yang memanfaatkan fungsi-fungsi dari file sebelumnya. Program ini mendefinisikan dua variabel string, yaitu namaMapel dan kodeMapel, kemudian membuat objek pelajaran dengan memanggil fungsi createPelajaran(). 
 ```
 ### Output Unguided 2 :
 
@@ -210,6 +207,7 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
+pelajaran.h berisi pendefinisian struktur data bernama pelajaran dengan dua atribut, yaitu namaMapel untuk menyimpan nama mata pelajaran dan kodeMapel untuk menyimpan kode mata pelajaran. pelajaran.cpp berisi implementasi dari fungsi-fungsi yang dideklarasikan dalam file header. main.cpp berisi program utama yang memanfaatkan fungsi-fungsi dari file sebelumnya. Program ini mendefinisikan dua variabel string, yaitu namaMapel dan kodeMapel, kemudian membuat objek pelajaran dengan memanggil fungsi createPelajaran(). 
 
 ### 3. Soal Unguided 3
 Buatlah program dengan ketentuan:
@@ -261,7 +259,7 @@ int main() {
 
     return 0;
 }
-Program di atas menampilkan dan menukar elemen tertentu dari dua array dua dimensi (3x3) menggunakan pointer.
+
 ```
 ### Output Unguided 3 :
 
@@ -273,6 +271,8 @@ contoh :
 
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+
+Program di atas menampilkan dan menukar elemen tertentu dari dua array dua dimensi (3x3) menggunakan pointer.
 
 ## Kesimpulan
 Praktikum Modul 3 mengenalkan tipe data abstrak merupakan konsep penting dalam pemrograman yang memisahkan antara definisi logis suatu data dengan implementasinya secara fisik. Melalui ADT, programmer dapat mendeskripsikan apa yang dilakukan suatu struktur data tanpa harus memikirkan bagaimana cara kerjanya secara internal. Pendekatan ini dapat membantu menciptakan program yang lebih terstruktur, mudah dipahami, serta mudah dimodifikasi.
