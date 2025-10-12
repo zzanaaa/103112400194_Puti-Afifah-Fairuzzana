@@ -4,11 +4,8 @@
 ## Dasar Teori
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
-### A.  <br/>
-
-### B.
-
-### C. 
+### A. Abstract Data Type <br/>
+Tipe data abstrak adalah jenis data tertentu yang didefinisikan oleh pemograman untuk kemudahan pemograman dan untuk menerima jenis data yang tidak spesifik yang dapat diterima oleh bahasa pemograman yang digunakan. Selain itu, ADT menyempurnakan tipe data dengan mengaitkannya dengan fungsi fungsi data yang relevan.
 
 ## Guided 
 
@@ -153,28 +150,9 @@ contoh :
 Program ini meminta user untuk mengelola data mahasiswa dan menghitung nilai akhir nya.
 
 ### 2. Soal Unguided 2
-Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h":
-
-Type pelajaran <
-nаmаMареl : string 
-kodeMapel : string
-> 
-function create_pelajaran (namapel : string, kodepel : string) pelajaran 
-procedure tampil_pelajaran(input pel : pelajaran )
-Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp"
-
-Cobalah hasil implementasi ADT pada file "main.cpp"
-
-using namespace std:
-int main(){
-string namapel  = "Struktur Data";
-string kodepel  = "STD";
-pelajaran pel = create_ pelajaran (namapel, kodepel);
-tampil pelajaran (pel);
-return 0;
-}
+Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h". Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp". Cobalah hasil implementasi ADT pada file "main.cpp"
 ```C++
-1. pelajaran.h 
+pelajaran.h 
 #ifndef PELAJARAN_H
 #define PELAJARAN_H
 #include <iostream>
@@ -191,7 +169,7 @@ void tampilPelajaran(pelajaran p);
 
 #endif
 
-2. pelajaran.cpp
+pelajaran.cpp
 #include "pelajaran.h"
 #include <iostream>
 
@@ -207,7 +185,7 @@ void tampilPelajaran(pelajaran p) {
     cout << "kode pelajaran: " << p.kodeMapel << endl;
 }
 
-3. main.cpp
+main.cpp
 #include <iostream>
 #include "pelajaran.h"
 using namespace std;
@@ -301,4 +279,4 @@ Praktikum Modul 3 mengenalkan tipe data abstrak merupakan konsep penting dalam p
 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
-[2] 
+[2] Triase, T. (2020). Struktur Data: Diktat Edisi Revisi.<br>
