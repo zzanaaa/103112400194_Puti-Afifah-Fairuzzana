@@ -3,7 +3,7 @@
 using namespace std;
 
 struct Mahasiswa {
-    string nama, nim;
+    string nama;;
     float uts, uas, tugas, nilaiAkhir;
 };
 
@@ -24,7 +24,6 @@ int main(){
     for (int i = 0; i < jumlah; i++) {
         cout << "Data Mahasiswa ke-" << (i + 1) << endl;
         cout << "Nama: "; getline(cin, mhs[i].nama);
-        cout << "NIM: "; getline(cin, mhs[i].nim);
         cout << "Nilai UTS: "; cin >> mhs[i].uts;
         cout << "Nilai UAS: "; cin >> mhs[i].uas;
         cout << "Nilai Tugas: "; cin >> mhs[i].tugas;
@@ -33,17 +32,11 @@ int main(){
         cout << endl;
     }
     cout << "\nData Mahasiswa:\n";
-    cout << left << setw(5) << "No"
-         << setw(15) << "Nama"
-         << setw(15) << "NIM"
-         << setw(15) << "Nilai Akhir" << endl;
+    cout << "No | Nama | Nilai Akhir\n";
 
     for (int i = 0; i < jumlah; i++) {
-        cout << left << setw(5) << (i + 1)
-             << setw(15) << mhs[i].nama
-             << setw(15) << mhs[i].nim
-             << setw(15) << fixed << setprecision(1) << mhs[i].nilaiAkhir
-             << endl;
+        cout << (i + 1) << " | " << mhs[i].nama << " | " 
+             << fixed << setprecision(1) << mhs[i].nilaiAkhir << endl;
     }
     return 0;
 

@@ -9,29 +9,61 @@ Tipe data abstrak adalah jenis data tertentu yang didefinisikan oleh pemograman 
 
 ## Guided 
 
-### 1. mahasiswa.h
+### 1. Soal Guided 1
+
+```C++
+#include <iostream>
+using namespace std;
+
+struct mahasiswa{
+    string nama;
+    float nilai1, nilai2;
+
+};
+
+void inputMhs(mahasiswa &m){
+    cout << " input nama : ";
+    cin >> m.nama;
+    cout << " input nilai 1 : ";
+    cin >> m.nilai1;
+    cout << " input nilai 2 : ";
+    cin >> m.nilai2;
+
+}
+
+float rata2(mahasiswa m){
+    return float(m.nilai1 + m.nilai2) / 2;
+
+}
+
+int main(){
+    mahasiswa mhs;
+    inputMhs(mhs);
+
+    cout << "rata -rata nilai adalah : " << rata2(mhs) << endl;
+
+    return 0;
+}
+```
+Guided 1 Program ini menunjukkan penggunaan struktur data (struct), fungsi dengan parameter reference, dan fungsi pengembalian nilai untuk menghitung rata-rata nilai mahasiswa.
+
+### 2. Soal Guided 2
 
 ```C++
 #ifndef MAHASISWA_H
 #define MAHASISWA_H
-
-// Definisi Tipe (struct) 
-struct mahasiswa {
-    char nim[10];
-    int nilai1, nilai2;
+struct mahasiswa
+{
+  char nim[10];
+  int nilai1, nilai2;
+    /* data */
 };
 
-//Deklarasi Primitif (Fungsi)
 void inputMhs(mahasiswa &m);
 float rata2(mahasiswa m);
 
-#endif 
-```
-Guided 1 pendefinisian tipe data dan deklarasi fungsi untuk data mahasiswa.
+#endif
 
-### 2. mahasiswa.cpp
-
-```C++
 #include <iostream>
 #include "mahasiswa.h"
 
@@ -51,12 +83,7 @@ void inputMhs(mahasiswa &m){
 float rata2(mahasiswa m){
     return (float)(m.nilai1 + m.nilai2) / 2;
 }
-```
-Guided 2 merealisasikan fungsi-fungsi yang sebelumnya dideklarasikan di mahasiswa.h.
 
-### 3. main.cpp
-
-```C++
 #include <iostream>
 #include "mahasiswa.h"
 #include <cstdlib>
@@ -74,7 +101,13 @@ int main(){
     return 0;
 }
 ```
-Guided 3 menjalankan program input data mahasiswa dan menghitung rata ratanya.
+Guided 2 Program ini dibuat untuk menginput data seorang mahasiswa yang terdiri dari NIM, nilai pertama, dan nilai kedua, kemudian menghitung serta menampilkan rata-rata dari kedua nilai tersebut. Program ini menggunakan pendekatan modular dengan memisahkan bagian deklarasi, implementasi fungsi, dan program utama ke dalam tiga bagian berbeda. Pada file header mahasiswa.h, didefinisikan struktur mahasiswa yang berisi atribut nim, nilai1, dan nilai2, serta deklarasi fungsi inputMhs() dan rata2(). File implementasi berisi realisasi kedua fungsi tersebut, di mana inputMhs() digunakan untuk menerima input data mahasiswa melalui keyboard, sedangkan rata2() berfungsi menghitung rata-rata dari dua nilai yang dimasukkan. Pada file utama, dibuat variabel bertipe mahasiswa kemudian fungsi inputMhs() dipanggil untuk mengisi data mahasiswa dan hasil rata-ratanya dihitung dengan memanggil fungsi rata2(). Hasil akhir berupa nilai rata-rata mahasiswa ditampilkan di layar.
+
+### 3. 
+
+```C++
+```
+Guided 3
 
 ## Unguided 
 
@@ -87,8 +120,7 @@ Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array
 using namespace std;
 
 struct Mahasiswa {
-    string nama;
-    string nim;
+    string nama;;
     float uts, uas, tugas, nilaiAkhir;
 };
 
@@ -109,7 +141,6 @@ int main(){
     for (int i = 0; i < jumlah; i++) {
         cout << "Data Mahasiswa ke-" << (i + 1) << endl;
         cout << "Nama: "; getline(cin, mhs[i].nama);
-        cout << "NIM: "; getline(cin, mhs[i].nim);
         cout << "Nilai UTS: "; cin >> mhs[i].uts;
         cout << "Nilai UAS: "; cin >> mhs[i].uas;
         cout << "Nilai Tugas: "; cin >> mhs[i].tugas;
@@ -118,17 +149,11 @@ int main(){
         cout << endl;
     }
     cout << "\nData Mahasiswa:\n";
-    cout << left << setw(5) << "No"
-         << setw(15) << "Nama"
-         << setw(15) << "NIM"
-         << setw(15) << "Nilai Akhir" << endl;
+    cout << "No | Nama | Nilai Akhir\n";
 
     for (int i = 0; i < jumlah; i++) {
-        cout << left << setw(5) << (i + 1)
-             << setw(15) << mhs[i].nama
-             << setw(15) << mhs[i].nim
-             << setw(15) << fixed << setprecision(1) << mhs[i].nilaiAkhir
-             << endl;
+        cout << (i + 1) << " | " << mhs[i].nama << " | " 
+             << fixed << setprecision(1) << mhs[i].nilaiAkhir << endl;
     }
     return 0;
 
