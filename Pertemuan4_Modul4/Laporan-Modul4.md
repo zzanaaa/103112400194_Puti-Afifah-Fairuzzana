@@ -387,7 +387,7 @@ Guided 3
 Buatlah ADT Singly Linked list sebagai berikut di dalam file “Singlylist.h”. Kemudian buatlah implementasi dari procedure-procedure yang digunakan didalam file “Singlylist.cpp”. Kemudian buat program utama didalam file “main.cpp”.
 
 ```C++
-singlylist.h
+file singlylist.h
 #ifndef SINGLYLIST_H
 #define SINGLYLIST_H
 
@@ -414,7 +414,7 @@ void printInfo(List L);
 
 #endif
 
-singlylist.cpp
+file singlylist.cpp
 #include "singlylist.h"
 #include <iostream>
 using namespace std;
@@ -455,7 +455,7 @@ void printInfo(List L) {
     }
 }
 
-main.cpp
+file main.cpp
 #include "singlylist.h"
 #include <iostream>
 using namespace std;
@@ -496,12 +496,12 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-Program ini membuat Singly Linked List yang berisi data bertipe integer. Program menambahkan beberapa elemen ke dalam list menggunakan fungsi insertFirst, sehingga setiap data baru dimasukkan di bagian depan. Setelah semua elemen ditambahkan, program menampilkan isi list secara berurutan dari depan ke belakang. Karena proses penambahan dilakukan di awal, hasil akhirnya menunjukkan data dalam urutan terbalik dari saat dimasukkan, yaitu 9 12 8 0 2.
+Program ini merupakan implementasi dari Singly Linked List yang menyimpan data bertipe integer. Pada awalnya, program membuat list kosong menggunakan fungsi createList. Selanjutnya, beberapa elemen dimasukkan ke dalam list menggunakan fungsi insertFirst, sehingga setiap data baru ditambahkan di bagian depan list. Akibat proses penambahan yang selalu dilakukan di awal, urutan data dalam list menjadi terbalik dari urutan saat data dimasukkan. Setelah semua elemen selesai dimasukkan, program menampilkan isi list dari depan ke belakang menggunakan fungsi printInfo. Hasil akhirnya adalah tampilan data dalam urutan 9 12 8 0 2.
 
 ### 2. Soal Unguided 2
 Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h". Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp". Cobalah hasil implementasi ADT pada file "main.cpp"
 ```C++
-"singlylist.h"
+file singlylist.h
 #ifndef SINGLYLIST_H
 #define SINGLYLIST_H
 
@@ -532,7 +532,7 @@ int nbList(List L);
 void deleteList(List &L);
 #endif
 
-"singlylist.cpp"
+file singlylist.cpp
 #include "singlylist.h"
 #include <iostream>
 using namespace std;
@@ -627,7 +627,7 @@ void deleteList(List &L) {
     }
 }
 
-"main.cpp"
+file main.cpp
 #include "singlylist.h"
 #include <iostream>
 using namespace std;
@@ -679,7 +679,7 @@ contoh :
 ##### Output 2
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-Program ini membuat Single Linked List yang berisi data bertipe integer. Program menambahkan lima elemen ke dalam list menggunakan fungsi insertFirst, sehingga urutan datanya menjadi 9 → 12 → 8 → 0 → 2. Setelah itu, program menghapus elemen pertama (9), elemen terakhir (2), dan elemen setelah 12 (yaitu 8), sehingga list tersisa 12 → 0. Terakhir, program menampilkan jumlah node, lalu menghapus seluruh isi list hingga kosong.
+Program ini merupakan implementasi dari Single Linked List yang menyimpan data bertipe integer. Pada awal program, list diinisialisasi dalam keadaan kosong menggunakan fungsi createList. Selanjutnya, lima elemen dimasukkan ke dalam list menggunakan fungsi insertFirst, sehingga setiap elemen baru ditambahkan di bagian depan dan membentuk urutan data 9 → 12 → 8 → 0 → 2. Setelah itu, program melakukan operasi penghapusan menggunakan tiga fungsi berbeda: deleteFirst untuk menghapus elemen pertama (9), deleteLast untuk menghapus elemen terakhir (2), dan deleteAfter untuk menghapus elemen setelah 12 (yaitu 8). Setelah ketiga penghapusan tersebut, list yang tersisa adalah 12 → 0. Program kemudian menampilkan jumlah node yang masih ada, lalu menghapus seluruh isi list dengan fungsi deleteList, sehingga list menjadi kosong sepenuhnya.
 
 ### 3. Soal Unguided 3
 
@@ -698,7 +698,7 @@ contoh :
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 ## Kesimpulan
-Praktikum Modul 
+Praktikum Modul 4 adalah bahwa Singly Linked List merupakan struktur data dinamis yang tersusun dari node-node yang saling terhubung melalui pointer, di mana setiap node berisi data dan penunjuk ke node berikutnya. Tidak seperti array, ukuran linked list dapat berubah secara fleksibel sesuai kebutuhan. Melalui modul ini, mahasiswa mempelajari cara membuat list, menambahkan dan menghapus elemen, menampilkan isi list, menghitung jumlah node, serta menghapus seluruh isi list.
 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
