@@ -387,7 +387,8 @@ Guided 3
 Buatlah ADT Singly Linked list sebagai berikut di dalam file “Singlylist.h”. Kemudian buatlah implementasi dari procedure-procedure yang digunakan didalam file “Singlylist.cpp”. Kemudian buat program utama didalam file “main.cpp”.
 
 ```C++
-file "singlylist.h"
+
+singlylist.h
 
 #ifndef SINGLYLIST_H
 #define SINGLYLIST_H
@@ -415,7 +416,7 @@ void printInfo(List L);
 
 #endif
 
-file "singlylist.cpp"
+singlylist.cpp
 
 #include "singlylist.h"
 #include <iostream>
@@ -457,7 +458,7 @@ void printInfo(List L) {
     }
 }
 
-file "main.cpp"
+main.cpp
 
 #include "singlylist.h"
 #include <iostream>
@@ -503,8 +504,10 @@ Program ini merupakan implementasi dari Singly Linked List yang menyimpan data b
 
 ### 2. Soal Unguided 2
 Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h". Buatlah implementasi ADT pelajaran pada file "pelajaran.cpp". Cobalah hasil implementasi ADT pada file "main.cpp"
+
 ```C++
-file "singlylist.h"
+
+singlylist.h
 
 #ifndef SINGLYLIST_H
 #define SINGLYLIST_H
@@ -536,7 +539,7 @@ int nbList(List L);
 void deleteList(List &L);
 #endif
 
-file "singlylist.cpp"
+singlylist.cpp
 
 #include "singlylist.h"
 #include <iostream>
@@ -632,7 +635,7 @@ void deleteList(List &L) {
     }
 }
 
-file "main.cpp"
+main.cpp
 
 #include "singlylist.h"
 #include <iostream>
