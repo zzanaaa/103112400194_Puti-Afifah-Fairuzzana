@@ -5,7 +5,7 @@
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
 ### A. Linear Search <br/>
-Linear Serach merupakan algoritma yang bekerja dengan mencocokan data secara berurutan satu per satu dari satu ujung kumpulan data ke ujung lainnya. Pencarian dengan linear search tidak akan berhenti hingga data yang diinginkan ditemukan.
+Linear Search merupakan algoritma yang bekerja dengan mencocokan data secara berurutan satu per satu dari satu ujung kumpulan data ke ujung lainnya. Pencarian dengan linear search tidak akan berhenti hingga data yang diinginkan ditemukan.
 
 ### B. Binary Search <br/>
 Binary Search merupakan algoritma pencarian yang bekerja pada data yang telah diurutkan. Algoritma ini bekerja dengan membagi data menjadi dua secara berulang. Dengan membagi dua, proses pencarian lebih cepat karena tidak mencari ke bagian yang tidak perlu.[2]
