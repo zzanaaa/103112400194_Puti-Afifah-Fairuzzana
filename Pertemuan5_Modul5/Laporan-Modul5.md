@@ -651,12 +651,6 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/Pertemuan5_Modul5/output-unguided1-modul5.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 Program ini menunjukkan proses pencarian data menggunakan binary search pada linked list. Data dimasukkan secara berurutan dengan fungsi append() dan ditampilkan melalui displayList(). Fungsi utama, binarySearch(), mencari nilai dengan membagi daftar menjadi dua bagian berulang kali hingga data ditemukan atau tidak ada elemen yang tersisa. Dalam contoh, program membuat linked list berisi angka 10 hingga 60, lalu melakukan pencarian, misalnya menemukan angka 40 dan tidak menemukan angka 25.
 
 ### 2. Soal Unguided 2
@@ -778,29 +772,7 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/Pertemuan5_Modul5/output-unguided2-modul5.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 Program ini menunjukkan pencarian data di linked list menggunakan linear search. Data dimasukkann satu per satu lewat fungsi append(), terus ditampilin pake tampilkanList(). Fungsi linearSearch() bakal ngecek tiap node dari awal sampai nemu data yang dicari, atau sampai semua node udah dicek. Di contoh ini, program bikin linked list berisi angka 10 sampai 50, terus berhasil nemuin angka 30 dan nggak nemuin angka 25.
-
-### 3. Soal Unguided 3
-
-```C++
-
-```
-### Output Unguided 3 :
-
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main//.png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 ## Kesimpulan
 Linked List adalah struktur data linier di mana setiap elemen atau node saling terhubung melalui pointer, bukan disimpan secara berurutan di memori. Dalam pencarian data pada Linked List, dapat digunakan metode Linear Search, yaitu dengan memeriksa setiap node satu per satu hingga data yang dicari ditemukan. Metode ini tidak memerlukan data yang terurut, namun memiliki kelemahan dalam hal kecepatan ketika jumlah data sangat besar. Sebaliknya, Binary Search menawarkan pencarian yang jauh lebih cepat dengan cara membagi data menjadi dua bagian secara berulang, tetapi hanya dapat diterapkan apabila data telah terurut terlebih dahulu.
