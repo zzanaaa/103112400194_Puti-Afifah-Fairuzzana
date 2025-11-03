@@ -750,7 +750,7 @@ int main() { // penggunaan fungsi-fungsi dalam Doublylist
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/Pertemuan5_Modul5/output-unguided1-modul6.png)
+![Screenshot Output Unguided 1_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/Pertemuan6_Modul6/output-unguided1-modul6.png)
 
 Program ini mengimplementasikan doubly linked list untuk mengelola data kendaraan secara dinamis. Setiap node menyimpan nomor polisi, warna, dan tahun pembuatan, serta memiliki pointer next dan prev untuk menghubungkan antar node dua arah. Program ini memiliki fitur untuk membuat list kosong, menambah data di akhir list, mencari kendaraan berdasarkan nomor polisi, menghapus data di awal, akhir, atau setelah node tertentu, serta mengecek apakah nomor polisi sudah terdaftar sebelum menambah data baru. Pada fungsi main, pengguna dapat memasukkan, menampilkan, mencari, dan menghapus data kendaraan sesuai kebutuhan.
 
