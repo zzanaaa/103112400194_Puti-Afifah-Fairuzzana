@@ -757,7 +757,6 @@ Program ini mengimplementasikan doubly linked list untuk mengelola data kendaraa
 ## Kesimpulan
 Doubly Linked List merupakan struktur data dinamis yang setiap elemennya saling terhubung dua arah melalui pointer next dan prev, sehingga memungkinkan proses traversal, pencarian, penyisipan, dan penghapusan data dilakukan dari dua arah dengan lebih fleksibel. Struktur ini memiliki dua pointer utama, yaitu first yang menunjuk ke elemen pertama dan last yang menunjuk ke elemen terakhir. Dengan adanya hubungan dua arah antar node, pengelolaan data menjadi lebih efisien dan mudah, terutama saat menambah atau menghapus elemen tanpa perlu menggeser data lain seperti pada array.
 
-
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY. <br>
 [2] Daismabali. (2023, Juni 5). Memahami doubly linked list dalam struktur data dengan mudah. Medium. https://daismabali.medium.com/memahami-doubly-linked-list-dalam-struktu-data-dengan-mudah-e9192a3fbacd<br>
