@@ -369,6 +369,7 @@ void deleteByNopol(List &L, string nopol);
 void printInfo(List L);
 
 #endif 
+```
 
 file Doublylist.cpp
 ```C++
