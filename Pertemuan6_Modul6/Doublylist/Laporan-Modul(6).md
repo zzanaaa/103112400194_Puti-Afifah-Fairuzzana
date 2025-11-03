@@ -5,7 +5,7 @@
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
 ### A. Doubly Linked List <br/>
-Doubly Linked List adalah Tambahan dari Single Linked List yang menambahkan satu pointer ( yang nantinya dapat dikembangkan dengan banyak poiter. [2]
+Doubly Linked List adalah Tambahan dari Single Linked List yang menambahkan satu pointer yang nantinya dapat dikembangkan dengan banyak poiter. [2]
 
 ## Guided 
 
@@ -304,15 +304,13 @@ int main(){
 
     return 0;
 }
-   
-
 ```
 Guided 1  Program ini membuat dan mengelola doubly linked list berisi data makanan. Setiap node menyimpan nama, jenis, harga, dan rating makanan. Program dapat menambah, menampilkan, dan memperbarui data pada posisi tertentu dalam list menggunakan pointer dua arah (next dan prev).
+
 
 ### 2. Soal Guided 2
 
 ```C++
-
 "file Doublylist.h"
 
 #ifndef DOUBLYLIST_H
@@ -498,9 +496,9 @@ int main() { // penggunaan fungsi-fungsi dalam Doublylist
 
     return 0;
 }
-
 ```
 Guided 2 Program ini menggunakan doubly linked list untuk menyimpan data kendaraan berupa nomor polisi, warna, dan tahun pembuatan. Program dapat menambah data di akhir list, mencari kendaraan berdasarkan nomor polisi, menghapus data tertentu, dan menampilkan seluruh isi list. Tujuannya adalah menunjukkan cara kerja operasi dasar seperti insert, search, dan delete pada struktur data doubly linked list.
+
 
 ## Unguided 
 
@@ -748,7 +746,6 @@ int main() { // penggunaan fungsi-fungsi dalam Doublylist
     printInfo(L);
     return 0;
 }
-
 ```
 ### Output Unguided 1 :
 
@@ -760,6 +757,7 @@ Program ini mengimplementasikan doubly linked list untuk mengelola data kendaraa
 ## Kesimpulan
 Doubly Linked List merupakan struktur data dinamis yang setiap elemennya saling terhubung dua arah melalui pointer next dan prev, sehingga memungkinkan proses traversal, pencarian, penyisipan, dan penghapusan data dilakukan dari dua arah dengan lebih fleksibel. Struktur ini memiliki dua pointer utama, yaitu first yang menunjuk ke elemen pertama dan last yang menunjuk ke elemen terakhir. Dengan adanya hubungan dua arah antar node, pengelolaan data menjadi lebih efisien dan mudah, terutama saat menambah atau menghapus elemen tanpa perlu menggeser data lain seperti pada array.
 
+
 ## Referensi
-[1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY.<br>
+[1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY. <br>
 [2] Daismabali. (2023, Juni 5). Memahami doubly linked list dalam struktur data dengan mudah. Medium. https://daismabali.medium.com/memahami-doubly-linked-list-dalam-struktu-data-dengan-mudah-e9192a3fbacd<br>
