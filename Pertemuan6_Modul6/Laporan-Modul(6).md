@@ -11,8 +11,9 @@ Doubly Linked List adalah Tambahan dari Single Linked List yang menambahkan satu
 
 ### 1. Soal Guided 1
 
-```C++
 file listMakanan.h
+
+```C++
 
 #ifndef LISTMAKANAN_H
 #define LISTMAKANAN_H
@@ -63,6 +64,7 @@ void updateBefore(linkedlist List, address nodeNext);
 #endif
 
 file listMakanan.cpp 
+```C++
 
 #include "listMakanan.h"
 #include <iostream>
@@ -263,6 +265,7 @@ void updateBefore(linkedlist List, address nodeNext){
 }
 
 file main.cpp
+```C++
 
 #include "listMakanan.h"
 #include <iostream>
@@ -310,8 +313,8 @@ Guided 1  Program ini membuat dan mengelola doubly linked list berisi data makan
 
 ### 2. Soal Guided 2
 
+file Doublylist.h
 ```C++
-"file Doublylist.h"
 
 #ifndef DOUBLYLIST_H
 #define DOUBLYLIST_H
@@ -363,7 +366,8 @@ void printInfo(List L);
 
 #endif 
 
-"file Doublylist.cpp"
+file Doublylist.cpp
+```C++
 
 #include "Doublylist.h"
 using namespace std;
@@ -450,7 +454,8 @@ void printInfo(List L) { //menampilkan isi list
     }
 }
 
-"file main.cpp"
+file main.cpp
+```C++
 
 #include "Doublylist.h"
 
@@ -508,8 +513,8 @@ procedure deleteFirst( input/output L : List ,P : address )
 procedure deleteLast( input/output L : List ,P : address )
 procedure deleteAfter( input Prec : address ,input/output P : address )
 
+file Doblylist.h
 ```C++
-"file Doblylist.h"
 
 #ifndef DOUBLYLIST_H
 #define DOUBLYLIST_H
@@ -568,7 +573,8 @@ void printInfo(List L);
 bool cekList(List L, string nopol);
 #endif 
 
-"file Doublylist.cpp"
+file Doublylist.cpp
+```C++
 
 #include "Doublylist.h"
 using namespace std;
@@ -673,7 +679,8 @@ void printInfo(List L) { //menampilkan isi list
     }
 }
 
-"file main.cpp"
+file main.cpp
+```C++
 
 #include "Doublylist.h"
 
