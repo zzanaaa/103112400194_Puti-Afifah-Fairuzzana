@@ -63,6 +63,8 @@ void updateBefore(linkedlist List, address nodeNext);
 
 #endif
 
+```
+
 file listMakanan.cpp 
 ```C++
 
@@ -264,6 +266,8 @@ void updateBefore(linkedlist List, address nodeNext){
     }
 }
 
+```
+
 file main.cpp
 ```C++
 
@@ -454,6 +458,8 @@ void printInfo(List L) { //menampilkan isi list
     }
 }
 
+```
+
 file main.cpp
 ```C++
 
@@ -573,6 +579,8 @@ void printInfo(List L);
 bool cekList(List L, string nopol);
 #endif 
 
+```
+
 file Doublylist.cpp
 ```C++
 
@@ -678,6 +686,8 @@ void printInfo(List L) { //menampilkan isi list
         }
     }
 }
+
+```
 
 file main.cpp
 ```C++
