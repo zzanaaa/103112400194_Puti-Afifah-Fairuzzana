@@ -5,7 +5,7 @@
 Struktur adalah kumpulan variabel yang diberi nama, yang dimana setiap variabel memiliki tipe data yang berbeda. [1]
 
 ### A. Stack <br/>
-Sebuah kumpulan data dimana data yang diletakkan di atas data  yang lain. Stack adalah struktur data yang menggunakan konsep LIFO(Last In First Out). Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. [2]
+Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data  yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO(Last In First Out). Dengan demikian, elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, maka dilakukan operasi push. Dan untuk memindahkan dari tempat yang atas tersebut, maka dilakukan operasi pop.[2]
 
 ## Guided 
 
@@ -351,7 +351,7 @@ int main() {
     return 0;
 }
 ```
-Guided 2 Program ini mengimplementasikan stack menggunakan array dengan ukuran maksimum 20 elemen. Stack memiliki array info untuk menyimpan data dan variabel top untuk menandai elemen teratas. Operasi yang tersedia meliputi push() untuk menambah elemen, pop() untuk menghapus elemen teratas, printInfo() untuk menampilkan isi stack, dan balikStack() untuk membalik urutan elemen. Di bagian utama, program membuat stack, menambahkan dan menghapus beberapa elemen, menampilkan isi stack, membalik urutannya, lalu menampilkan hasil akhirnya. Program ini menunjukkan cara kerja stack dasar menggunakan array serta manipulasi urutan elemen.
+Guided 2 Program ini mengimplementasikan stack menggunakan array dengan ukuran maksimum 20 elemen. Stack disimpan dalam struktur Stack yang memiliki array info untuk menyimpan data dan variabel top untuk menandai posisi elemen teratas. Fungsi CreateStack() digunakan untuk menginisialisasi stack kosong, isEmpty() untuk mengecek apakah stack kosong, dan isFull() untuk mengecek apakah stack penuh. Elemen ditambahkan ke stack melalui push() dan diambil dari atas stack menggunakan pop(). Fungsi printInfo() menampilkan semua elemen dari atas ke bawah, sedangkan balikStack() membalik urutan elemen stack dengan memanfaatkan dua stack sementara. Di (main.cpp), program membuat stack S, menambahkan beberapa elemen, melakukan operasi pop beberapa kali, menampilkan isi stack, membalik urutan stack, dan menampilkan hasil akhirnya. Program ini menunjukkan operasi dasar stack seperti push, pop, tampil, dan membalik urutan elemen menggunakan metode array.
 
 ## Unguided 
 
@@ -550,11 +550,11 @@ int main() {
 ##### Output 3
 ![Screenshot Output Unguided 1_1](https://github.com/zzanaaa/103112400194_Puti-Afifah-Fairuzzana/blob/main/Pertemuan7_Modul7//output3-unguided1-modul7.png)
 
-Program ini mengimplementasikan struktur data Stack (tumpukan) menggunakan array dengan kapasitas maksimal 20 elemen. Stack bekerja dengan prinsip LIFO (Last In First Out). Operasi dasar yang tersedia meliputi CreateStack() untuk membuat stack kosong, push() untuk menambah elemen ke bagian atas stack, pop() untuk menghapus elemen teratas, isEmpty() untuk mengecek apakah stack kosong, isFull() untuk mengecek apakah stack penuh, dan printInfo() untuk menampilkan isi stack dari atas ke bawah. Program juga menyediakan fitur tambahan yaitu balikStack() untuk membalik urutan elemen stack menggunakan dua stack sementara, serta pushAscending() yang menambahkan elemen ke stack dalam urutan terurut naik dengan memindahkan sementara elemen yang lebih besar. Selain itu terdapat getInputStream() yang membaca input karakter angka dari pengguna satu per satu dan memasukkannya ke stack hingga pengguna menekan Enter. Pada fungsi main(), program mendemonstrasikan seluruh operasi tersebut melalui percobaan push, pop, mencetak isi stack, membalik stack, memasukkan elemen secara ascending, dan membaca input stream dari keyboard.
+Program ini mengimplementasikan struktur data Stack (tumpukan) menggunakan array dengan kapasitas maksimal 20 elemen. Stack bekerja dengan prinsip LIFO (Last In First Out). Operasi dasar yang tersedia meliputi CreateStack() untuk membuat stack kosong, push() untuk menambah elemen ke bagian atas stack, pop() untuk menghapus elemen teratas, isEmpty() untuk mengecek apakah stack kosong, isFull() untuk mengecek apakah stack penuh, dan printInfo() untuk menampilkan isi stack dari atas ke bawah. Program juga menyediakan fitur tambahan yaitu balikStack() untuk membalik urutan elemen stack menggunakan dua stack sementara, serta pushAscending() yang menambahkan elemen ke stack dalam urutan terurut naik dengan memindahkan sementara elemen yang lebih besar. Selain itu terdapat getInputStream() yang membaca input karakter angka dari pengguna satu per satu dan memasukkannya ke stack hingga pengguna menekan Enter. Pada fungsi main(), program mendemonstrasikan seluruh operasi tersebut melalui percobaan push, pop, mencetak isi stack, membalik stack, memasukkan elemen secara ascending, dan membaca input stream.
 
 ## Kesimpulan
 Stack adalah struktur data yang bekerja dengan prinsip LIFO (Last In First Out), di mana elemen yang terakhir masuk akan menjadi yang pertama keluar. Operasi utamanya adalah Push (menambah elemen ke TOP) dan Pop (mengambil elemen dari TOP). Stack dapat diimplementasikan menggunakan pointer (linked list) maupun array (tabel). Pada kedua representasi, akses hanya dilakukan pada bagian TOP. Modul juga membahas primitif dasar stack seperti createStack, isEmpty, push, pop, serta latihan pengembangan seperti balikStack, pushAscending, dan getInputStream.
 
 ## Referensi
 [1] Sindar, Anita R.M.S. (2019). "STRUKTUR DATA DAN ALGORITMA DENGAN C++". Banten: CV. AA. RIZKY. <br>
-[2] Unknown. (2014, April 26). Stack pada C++. NBLOGNLIFE. https://www.nblognlife.com/2014/04/stack-pada-c.html<br>
+[2] Unknown. (2014, April 26). Stack pada C++. NBLOGNLIFE. https://www.nblognlife.com/2014/04/stack-pada-c.html <br>
