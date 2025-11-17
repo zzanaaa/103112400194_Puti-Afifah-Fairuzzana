@@ -78,6 +78,7 @@ void pushAscending(Stack &S, int x) {
 void getInputStream(Stack &S) {
     char c;
     
+    cout << "Masukkan deretan angka (akhiri dengan ENTER): ";
     cin.get(c);
 
     while (c != '\n'){
