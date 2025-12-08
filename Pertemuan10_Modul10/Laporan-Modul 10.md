@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 10 - Tree</h1>
+# <h1 align="center">Laporan Praktikum Modul 10 - Tree (Bagian Pertama)</h1>
 <p align="center">Puti Afifah Fairuzzana - 103112400194</p>
 
 ## Dasar Teori
