@@ -692,7 +692,7 @@ int main() {
 Program ini membuat sebuah Binary Search Tree (BST), yaitu struktur data berbentuk pohon yang menyimpan nilai secara terurut. Pada file bstree.h, didefinisikan struktur node yang memiliki nilai data serta pointer menuju anak kiri dan kanan, dan juga deklarasi fungsi untuk membuat node baru, memasukkan data, mencari data, dan mencetak isi pohon. Pada bstree.cpp, setiap fungsi diimplementasikan: alokasi membuat node baru, insertNode menempatkan nilai ke posisi yang sesuai dalam BST, findNode mencari nilai menggunakan aturan BST, dan InOrder mencetak seluruh nilai dari yang terkecil sampai terbesar. Di file main.cpp, program membuat root kosong, lalu memasukkan beberapa angka ke BST, kemudian mencetak hasilnya menggunakan traversal In-Order sehingga angka-angka muncul dalam urutan naik.
 
 ### 2. Soal Unguided 2
-Buatlah fungsi untuk menghitung jumlah node dengan fungsi berikut. fungsi hitungJumlahNode( root:address ) : integer /* fungsi mengembalikan integer banyak node yang ada di dalam BST*/ fungsi hitungTotalInfo( root:address, start:integer ) : integer /* fungsi mengembalikan jumlah (total) info dari node-node yang ada di dalam BST*/, fungsi hitungKedalaman( root:address, start:integer ) : integer /* fungsi rekursif mengembalikan integer kedalaman maksimal dari binary tree */
+Buatlah fungsi untuk menghitung jumlah node dengan fungsi berikut. 
 
 file bstree2.h
 ```C++
